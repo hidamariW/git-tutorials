@@ -8,6 +8,9 @@ while(i<=100)do
     print "Fizz\n"
   elsif (i % 5 == 0)
     print "Buzz\n"
+  else
+    print "#{i}\n"
   end
+  i += 1
 end
 
